@@ -1,0 +1,84 @@
+/* FLECHA FLOTANTE */
+.bup{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(10,10,10);
+    font-size: 40px;
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    cursor: pointer;
+    transition: all 300ms ease;
+    transform: scale(0);
+}
+.bup:hover {
+    transform: scale(1.1);
+    color: darkcyan;
+}
+
+/* Fin Flecha Flotante */
+
+/* BOTONES */
+.btnSelect {
+    border: 1px solid rgb(20,20,20);
+    padding: 4px;
+  }
+
+  .btnSelect:hover{
+    border: 1px solid violet;
+    cursor: pointer;
+  }
+  
+  .btnSend {
+    border: 1px solid rgb(50, 50, 50);
+    background-color: rgb(20,20,20);
+    padding: 8px;
+    color: white;;
+  }
+  .btnSend:hover {
+    border: 1px solid rgb(200, 227, 212);
+    background-color: rgb(135, 170, 170);
+    padding: 8px;
+    color: black ;
+  }
+
+  .btnCambiarIndicador {
+    border: 1px solid rgb(135, 170, 170);
+    background-color: rgb(200, 227, 212);
+    padding: 8px;
+    /* color: white; */
+  }
+  .btnCambiarIndicador:hover {
+    border: 1px solid rgb(50, 50, 50);
+    background-color: rgb(50,50,50);
+    padding: 8px;
+    color: white;
+  }
+
+  .padding {
+    padding: 4px;
+    /* background-color: aqua; */
+  }
+
+
+
+  .btnOtraConsulta:hover {
+    border: 1px solid rgb(50, 50, 50);
+  }
+
+  /*Fin Botones  */
+
+  /* LOGO */
+
+  .logo {
+    height: 65px;
+  }
+
+  .baloo {
+    font-family: 'Baloo';
+  }
+
